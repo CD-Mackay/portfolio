@@ -29,6 +29,10 @@ footer {
   grid-gap: 20px;
 }
 
+#projects {
+  width: 70vw;
+}
+
 .project-image {
   width: 100%;
   height: 70%;
