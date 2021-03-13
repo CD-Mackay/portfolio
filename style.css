@@ -29,11 +29,12 @@ footer {
   grid-gap: 20px;
 }
 
+#projects {
+  width: 70vw;
+}
+
 .project-image {
   width: 100%;
   height: 70%;
   object-fit: cover;
-}
-.project-square {
-  height: 400px;
 }
