@@ -31,6 +31,7 @@ footer {
 
 #projects {
   width: 70vw;
+  margin: auto;
 }
 
 .project-image {
@@ -38,3 +39,5 @@ footer {
   height: 70%;
   object-fit: cover;
 }
+
+
