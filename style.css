@@ -1,3 +1,10 @@
+#introduction {
+  background-color: blue;
+}
+#intro-div {
+  width: 40%;
+}
+
 #nav {
   width: 100%;
   display: flex;
