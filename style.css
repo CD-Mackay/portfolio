@@ -40,10 +40,16 @@ footer {
   object-fit: cover;
 }
 
+.skills-list {
+  list-style: none;
+}
+
 .wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   width: 70vw;
   margin: auto;
+  list-style: none;
+
 }
