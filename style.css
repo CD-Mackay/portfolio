@@ -1,6 +1,10 @@
 a {
   text-decoration: none;
 }
+i {
+  color: white;
+}
+
 #about-info {
   margin-top: auto;
   margin-bottom: auto;
