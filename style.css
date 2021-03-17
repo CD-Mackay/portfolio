@@ -1,7 +1,11 @@
+a {
+  text-decoration: none;
+}
 #about-info {
   margin-top: auto;
   margin-bottom: auto;
   padding-bottom: 50px;
+  color: white;
 }
 .contact-info {
   display: flex;
@@ -13,6 +17,10 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: black;
+}
+body {
+  margin: 0px;
 }
 
 #intro-div {
@@ -45,9 +53,10 @@ li {
 
 .nav-link {
   padding: 10px;
-  background-color: lightgrey;
-  height: 100%;
+  /* background-color: lightgrey;
+  height: 100%; */
   border-radius: 5px;
+  color: white;
 }
 
 .nav-link:hover {
