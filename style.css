@@ -1,7 +1,7 @@
 #about-info {
-  margin-top: 50px;
-  display: inline-block;
-  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom: 50px;
 }
 .contact-info {
   display: flex;
@@ -10,14 +10,17 @@
   width: 40vw;
   margin: auto;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 #intro-div {
   padding: 20px;
   width: 40%;
   height: 30vh;
 }
+
 li {
   list-style: none;
   margin-bottom: 5px;
@@ -29,6 +32,8 @@ li {
   background: rgb(34,152,140);
   background: linear-gradient(90deg, rgba(34,152,140,1) 0%, rgba(111,104,203,1) 45%, rgba(167,145,236,1) 100%);
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 #nav {
