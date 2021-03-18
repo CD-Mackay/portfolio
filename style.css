@@ -1,6 +1,14 @@
 a {
   text-decoration: none;
 }
+
+h2 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 22px;
+}
 i {
   color: white;
 }
@@ -15,7 +23,7 @@ i {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 40vw;
+  width: 30vw;
   margin: auto;
 }
 
@@ -67,6 +75,11 @@ li {
   background-color: gray;
 }
 
+
+.seperator {
+  border-bottom: 2px solid black;
+}
+
 footer {
   width: 100%;
 }
@@ -109,6 +122,7 @@ footer {
 #skills {
   width: 70vw;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .skills-list {
