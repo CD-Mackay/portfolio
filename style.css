@@ -1,5 +1,15 @@
 a {
   text-decoration: none;
+  color: blue;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 22px;
 }
 i {
   color: white;
@@ -15,16 +25,17 @@ i {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 40vw;
+  width: 30vw;
   margin: auto;
 }
 
 html {
   scroll-behavior: smooth;
-  
 }
 body {
   margin: 0px;
+  background-image: url(asfalt-light.png);
+
 }
 
 #intro-div {
@@ -65,6 +76,11 @@ li {
 
 .nav-link:hover {
   background-color: gray;
+}
+
+
+.seperator {
+  border-bottom: 2px solid black;
 }
 
 footer {
@@ -109,6 +125,7 @@ footer {
 #skills {
   width: 70vw;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 .skills-list {
