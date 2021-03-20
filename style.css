@@ -29,6 +29,10 @@ i {
   margin: auto;
 }
 
+.dark-icon {
+  color: blue;
+}
+
 html {
   scroll-behavior: smooth;
 }
