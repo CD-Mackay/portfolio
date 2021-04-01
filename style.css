@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: #001eff;
+  color: #000080;
   font-weight: 600;
 }
 
@@ -16,6 +16,9 @@ h3 {
 }
 i {
   color: white;
+}
+p {
+  font-size: 18px;
 }
 
 i:hover {
@@ -41,8 +44,14 @@ i:hover {
   padding-left: 0;
 }
 
+#card {
+  max-width: 30vw;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
 .dark-icon {
-  color: #001eff;
+  color: #000080;
 }
 
 html {
@@ -69,7 +78,7 @@ li {
 }
 
 #introduction {
-  height: 60vh;
+  height: 100vh;
   width: 100vw;
   background: rgb(34,152,140);
   background: linear-gradient(90deg, rgba(34,152,140,1) 0%, rgba(111,104,203,1) 45%, rgba(167,145,236,1) 100%);
@@ -78,6 +87,8 @@ li {
   flex-direction: column;
   
 }
+
+
 
 #nav {
   width: 100%;
