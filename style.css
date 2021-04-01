@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: #001eff;
+  color: #000080;
   font-weight: 600;
 }
 
@@ -42,7 +42,7 @@ i:hover {
 }
 
 .dark-icon {
-  color: #001eff;
+  color: #000080;
 }
 
 html {
